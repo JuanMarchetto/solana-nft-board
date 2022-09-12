@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "next lint --fix",
     "create-bld-token": "ts-node ./tokens/bld/index.ts",
     "reset-candy-machine": "rm tokens/candy-machine/cache.json && cd tokens/candy-machine && sugar launch"
   },
