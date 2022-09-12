@@ -1,0 +1,20 @@
+{
+    "name": "Macrame #2",
+    "symbol": "MACRA",
+    "description": "Cherry Tree",
+    "image": "1.jpeg",
+    "attributes": [
+        {
+            "trait_type": "type",
+            "value": "macrame"
+        }
+    ],
+    "properties": {
+        "files": [
+            {
+                "uri": "1.jpeg",
+                "type": "image/jpeg"
+            }
+        ]
+    }
+}

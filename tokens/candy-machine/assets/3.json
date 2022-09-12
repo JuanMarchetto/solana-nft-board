@@ -1,0 +1,20 @@
+{
+    "name": "Macrame #4",
+    "symbol": "MACRA",
+    "description": "Garden Bugs",
+    "image": "3.jpeg",
+    "attributes": [
+        {
+            "trait_type": "type",
+            "value": "macrame"
+        }
+    ],
+    "properties": {
+        "files": [
+            {
+                "uri": "3.jpeg",
+                "type": "image/jpeg"
+            }
+        ]
+    }
+}

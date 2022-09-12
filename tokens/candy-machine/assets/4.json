@@ -1,0 +1,20 @@
+{
+    "name": "Macrame #5",
+    "symbol": "MACRA",
+    "description": "Wallet",
+    "image": "4.jpeg",
+    "attributes": [
+        {
+            "trait_type": "type",
+            "value": "macrame"
+        }
+    ],
+    "properties": {
+        "files": [
+            {
+                "uri": "4.jpeg",
+                "type": "image/jpeg"
+            }
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Macrame #1",
+    "symbol": "MACRA",
+    "description": "Ferris the crab unnofficial mascot for Rust",
+    "image": "0.jpeg",
+    "attributes": [
+        {
+            "trait_type": "type",
+            "value": "macrame and grid representation"
+        }
+    ],
+    "properties": {
+        "files": [
+            {
+                "uri": "0.jpeg",
+                "type": "image/jpeg"
+            }
+        ]
+    }
+}

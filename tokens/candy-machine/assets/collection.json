@@ -1,0 +1,14 @@
+{
+    "name": "Macrame",
+    "description": "Beautiful macrame art by Loly",
+    "image": "collection.jpeg",
+    "attributes": [],
+    "properties": {
+        "files": [
+            {
+                "uri": "collection.jpeg",
+                "type": "image/jpeg"
+            }
+        ]
+    }
+}
