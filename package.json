@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint --fix",
     "create-bld-token": "ts-node ./tokens/bld/index.ts",
-    "reset-candy-machine": "rm tokens/candy-machine/cache.json && cd tokens/candy-machine && sugar launch"
+    "reset-candy-machine": "rm tokens/candy-machine/cache.json; cd tokens/candy-machine && sugar launch"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.9",
@@ -16,6 +16,7 @@
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@metaplex-foundation/js": "^0.15.0",
+    "@project-serum/borsh": "^0.2.5",
     "@solana/spl-token": "^0.3.4",
     "@solana/wallet-adapter-base": "^0.9.16",
     "@solana/wallet-adapter-react": "^0.15.18",
