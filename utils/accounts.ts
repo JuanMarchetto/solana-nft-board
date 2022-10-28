@@ -12,7 +12,10 @@ export async function getStakeAccount(
     program.programId
   )
   try {
+
     const account = await program.account.userStakeInfo.fetch(pda)
+
+    console.log(account)
     return new StakeAccount(account)
   } catch (e) {
     console.log(e)

@@ -48,6 +48,7 @@ export const StakeOptionsDisplay = ({
     try {
       const ata = await getAssociatedTokenAddress(STAKE_MINT, publicKey)
       const account = await getAccount(connection, ata)
+      console.log("aca",account)
       setBldTokenAccount(account)
     } catch (error) {
       console.log(error)
