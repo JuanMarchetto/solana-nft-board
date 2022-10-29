@@ -98,16 +98,16 @@ const Stake: NextPage<StakeProps> = ({ mintAddress, imageSrc }) => {
     <MainLayout>
       <VStack spacing={7} justify="flex-start" align="flex-start">
         <Heading color="white" as="h1" size="2xl">
-          Level up your buildoor
+          Level up your Macrame
         </Heading>
         <Text color="bodyText" fontSize="xl" textAlign="start" maxWidth="600px">
-          Stake your buildoor to earn 10 $BLD per day to get access to a
+          Stake your Macrame to earn 10 $BLD per day to get access to a
           randomized loot box full of upgrades for your buildoor
         </Text>
         <HStack spacing={20} alignItems="flex-start">
           <VStack align="flex-start" minWidth="200px">
             <Flex direction="column">
-              <Image src={imageSrc ?? ""} alt="buildoor nft" zIndex="1" />
+              <Image src={imageSrc ?? ""} alt="buildoor nft" zIndex="1" h="25vh" />
               <Center
                 bgColor="secondaryPurple"
                 borderRadius="0 0 8px 8px"

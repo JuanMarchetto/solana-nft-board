@@ -111,23 +111,22 @@ const Connected: FC = () => {
             noOfLines={1}
             textAlign="center"
           >
-            Welcome Buildoor.
+            Welcome Glasseater.
           </Heading>
 
           <Text color="bodyText" fontSize="xl" textAlign="center">
-            Each buildoor is randomly generated and can be staked to receive
-            <Text as="b"> $BLD</Text>. Use your <Text as="b"> $BLD</Text> to
-            upgrade your buildoor and receive perks within the community!
+            Each Macrame is randomly generated and can be staked to receive
+            <Text as="b"> $BLD</Text>.
           </Text>
         </VStack>
       </Container>
 
       <HStack spacing={10}>
-        <Image src="avatar1.png" alt="" />
-        <Image src="avatar2.png" alt="" />
-        <Image src="avatar3.png" alt="" />
-        <Image src="avatar4.png" alt="" />
-        <Image src="avatar5.png" alt="" />
+        <Image src="5.jpeg" alt="" h="25vh"/>
+        <Image src="1.jpeg" alt="" h="25vh" />
+        <Image src="2.jpeg" alt="" h="25vh" />
+        <Image src="3.jpeg" alt="" h="25vh" />
+        <Image src="4.jpeg" alt="" h="25vh" />
       </HStack>
 
       <Button
@@ -137,7 +136,7 @@ const Connected: FC = () => {
         onClick={handleClick}
         isLoading={isMinting}
       >
-        <Text>mint buildoor</Text>
+        <Text>mint Macrame</Text>
       </Button>
     </VStack>
   )

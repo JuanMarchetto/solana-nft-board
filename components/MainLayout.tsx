@@ -11,15 +11,15 @@ const MainLayout: FC<{ children: ReactNode }> = ({ children }) => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Buildoors</title>
-        <meta name="The NFT Collection for Buildoors" />
+        <title>Macrame</title>
+        <meta name="The Macrame NFT Collection" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Box
         w="full"
         h="calc(100vh)"
-        bgImage={connected ? "" : "url(/home-background.svg)"}
+        bgImage={connected ? "" : "url(/solana.jpeg)"}
         backgroundPosition="center"
       >
         <Stack w="full" h="calc(100vh)" justify="center">
@@ -34,11 +34,11 @@ const MainLayout: FC<{ children: ReactNode }> = ({ children }) => {
           <Center>
             <Box marginBottom={4} color="white">
               <a
-                href="https://twitter.com/_buildspace"
+                href="https://twitter.com/marchedev"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                build with @_buildspace
+                build by Marche
               </a>
             </Box>
           </Center>

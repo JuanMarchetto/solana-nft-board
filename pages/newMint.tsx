@@ -63,17 +63,16 @@ const NewMint: NextPage<NewMintProps> = ({ mintAddress }) => {
         <Container>
           <VStack spacing={8}>
             <Heading color="white" as="h1" size="2xl" textAlign="center">
-              😮 A new buildoor has appeared!
+              A new Macrame has appeared!
             </Heading>
 
             <Text color="bodyText" fontSize="xl" textAlign="center">
-              Congratulations, you minted a lvl 1 buildoor! <br />
-              Time to stake your character to earn rewards and level up.
+              Congratulations, you minted a Macrame!
             </Text>
           </VStack>
         </Container>
 
-        <Image src={metadata?.image ?? ""} alt="" />
+        <Image src={metadata?.image ?? ""} alt="" h="25vh" />
 
         <Button
           bgColor="accent"
@@ -82,7 +81,7 @@ const NewMint: NextPage<NewMintProps> = ({ mintAddress }) => {
           onClick={handleClick}
         >
           <HStack>
-            <Text>stake my buildoor</Text>
+            <Text>stake my Macrame</Text>
             <ArrowForwardIcon />
           </HStack>
         </Button>
